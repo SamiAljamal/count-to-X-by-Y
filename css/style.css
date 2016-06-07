@@ -1,5 +1,19 @@
+h1 {
+  text-shadow: 3px 3px 67px #f40be2;
+}
+
 .hidden {
   display: none;
+}
+
+#counter div {
+  display: block;
+  margin-bottom: 7px;
+}
+
+label {
+display: inline-block;
+width: 10%;
 }
 
 ul {
@@ -11,4 +25,7 @@ li {
   display: inline-block;
   float: left;
   border: 1px solid #000;
+  margin: 3px;
+  padding: 2px;
+  box-shadow: 2px 2px 5px #000;
 }
